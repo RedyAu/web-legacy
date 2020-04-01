@@ -160,10 +160,11 @@ pre {
 .showcase {
     margin-top: 2rem;
     width: 100%;
-    height: 90vh;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    min-height: 90vh;
 }
 
 .showcase-logo {
@@ -185,9 +186,9 @@ pre {
 
 .showcase-image {
     display: inline-block;
-    width: auto;
-    height: 90%;
     margin-top: 2%;
+    max-width: 400px;
+    max-height: 800px;
 }
 
 @media only screen and (max-width: 720px) {
@@ -196,7 +197,7 @@ pre {
     }
 
     .showcase-image {
-        display: none;
+        margin-bottom: 30px;
     }
 }
 
