@@ -1,3 +1,3 @@
 
 # [filcnaplo.hu](http://filcnaplo.hu)
-Ez az éles weboldal kódja, amit a webszerver óránként pull-ol autómatán.
+A Filc 1.0 régi weboldala.
